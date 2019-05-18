@@ -65,6 +65,8 @@
     })
     function newGame(){
     init();
+    firstPlayer.innerHTML='Player 1';
+    secondPlayer.innerHTML='Player 2';
     player_0.classList.add('active');
     player_1.classList.remove('active');
 }
